@@ -8,7 +8,7 @@ input.onButtonPressed(Button.B, function () {
         basic.pause(5000)
         pins.digitalWritePin(DigitalPin.P1, 0)
         pins.digitalWritePin(DigitalPin.P0, 1)
-        pins.setAudioPin(AnalogPin.P2)
+        pins.setAudioPin(AnalogPin.P3)
         music.playMelody("C5 B A G F E D C ", 120)
         basic.pause(5000)
     }
